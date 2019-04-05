@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart Aquaponics</string>
+    <string name="none_paired">None paired</string>
+    <string name="HeaterOn">HEATER ON</string>
+    <string name="HeaterOff">HEATER OFF</string>
+    <string name="PumpOn">PUMP ON</string>
+    <string name="PumpOff">PUMP OFF</string>
+    <string name="LampOn">LAMP ON</string>
+    <string name="LampOff">LAMP OFF</string>
+    <string name="FeederOn">FEEDER ON</string>
+    <string name="FeederOff">FEEDER OFF</string>
+    <string name="SensorTemp">Temperature Sensor in Celcius = ????</string>
+    <string name="SensorPH">pH Sensor in pH = ????</string>
+    <string name="SensorTDS">Kepekatan Sensor in mg/L = ????</string>
+</resources>

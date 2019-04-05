@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding = "10dp" >
+
+    <TextView
+        android:id="@+id/testView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtString"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtString"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/testView1"
+        android:layout_alignParentBottom="true"
+        android:text=""
+        android:textSize="150sp" />
+
+    <Button
+        android:id="@+id/buttonHeaterOn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/HeaterOn" />
+
+    <Button
+        android:id="@+id/buttonHeaterOff"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonHeaterOn"
+        android:layout_alignParentEnd="true"
+        android:text="@string/HeaterOff" />
+
+    <Button
+        android:id="@+id/buttonPumpOn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/PumpOn" />
+
+    <Button
+        android:id="@+id/buttonPumpOff"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonPumpOn"
+        android:layout_alignParentEnd="true"
+        android:text="@string/PumpOff" />
+
+    <Button
+        android:id="@+id/buttonLampOn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/LampOn" />
+
+    <Button
+        android:id="@+id/buttonLampOff"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonLampOn"
+        android:layout_alignParentEnd="true"
+        android:text="@string/LampOff" />
+
+    <Button
+        android:id="@+id/buttonFeederOn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/FeederOn" />
+
+    <Button
+        android:id="@+id/buttonFeederOff"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonFeederOn"
+        android:layout_alignParentEnd="true"
+        android:text="@string/FeederOff" />
+
+    <TextView
+        android:id="@+id/tv_sensorValueTemp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="#FFFF00"
+        android:text="@string/SensorTemp"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/tv_sensorValuePh"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#FFFF00"
+        android:text="@string/SensorPH"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/tv_sensorValueTDS"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:background="#FFFF00"
+        android:text="@string/SensorTDS"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
